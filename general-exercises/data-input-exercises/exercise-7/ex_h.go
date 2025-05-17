@@ -8,6 +8,9 @@ import (
 	"strconv"
 )
 
+// elaborar um programa para um cinema, que leia o título e a duração de um filme em minutos.
+// exiba o título do filme e converta a duração para horas e minutos.
+
 func main() {
 
 	scanner := bufio.NewScanner(os.Stdin)
