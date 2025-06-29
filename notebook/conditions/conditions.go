@@ -1,6 +1,9 @@
 package conditions
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 const color = "Blue"
 const year = 2017
@@ -14,6 +17,15 @@ func CheckOrConditions() {
 
 	if color == "Blue" && (year == 2016 || year == 2017) {
 		fmt.Println("primeiro compara year 2016 or year 2017")
+	}
+
+}
+
+func ShortStatementCondition() {
+
+	// cria variáveis nas condicionais if
+	if x := math.Sqrt(4); x < 10 {
+		fmt.Println(x)
 	}
 
 }
